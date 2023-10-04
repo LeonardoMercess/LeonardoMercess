@@ -1,4 +1,6 @@
-### Hi there 👋
+### Olá 👋
+
+Neste Repositório irei colocar alguns exercicios/projetos da faculdade!
 
 <!--
 **LeonardoMercess/LeonardoMercess** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
