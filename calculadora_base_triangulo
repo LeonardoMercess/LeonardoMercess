@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void)
+{
+    //Variaveis
+    	float area, base, altura;
+
+    //Entrada de dados
+    	printf("\n Ola, Digite a base do triangulo: ");
+    	scanf("%f",&base);
+    	printf("\n Agora digite a altura do triangulo: ");
+    	scanf("%f",&altura);
+
+    //Calculo da base
+    	area = (base*altura)/2;
+
+    //Resultado
+    	printf("\n Area do triangulo e: %1.f\n",area);
+    
+	return 0;
+}
