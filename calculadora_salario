@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    //Variaveis
+    	float horas, dependentes, salariob, salariol, inss, ir;
+
+    //Entrada de dados
+    	printf("\n Ola, digite quantas horas voce trabalhou neste mes: ");
+    	scanf("%f",&horas);
+    	printf("\n Agora digite quantos dependentes voce tem: ");
+    	scanf("%f",&dependentes);
+
+    //Calculo do salario
+    	salariob = (horas*12) + (dependentes*40);
+    	inss = (salariob*8.5)/100;
+    	ir = (salariob*5)/100;
+    	salariol = salariob-inss-ir;
+
+    //Resultado
+    	printf("\n Salario bruto: R$ %.2f\n",salariob);
+    	printf("\n Valor inss: R$ %.2f\n",inss);
+    	printf("\n valor ir: R$ %.2f\n",ir);
+    	printf("\n Seu salario liquido sera: R$ %.2f\n",salariol);
+
+
+    	return 0;
+}
